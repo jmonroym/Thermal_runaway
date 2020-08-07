@@ -1,0 +1,80 @@
+import pandas as pd
+import sys, os, re, glob
+import numpy as np
+
+from scipy.interpolate import splev, splrep
+
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+from scipy import stats
+from matplotlib import pylab
+import seaborn as sns
+
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
+from lmfit import Model
+
+dataset = pd.read_csv("datafile.dat",sep=",", index_col=None) # read info from csv file
+
+QT=pd.Dataframe()
+QT=dataset
+
+def func(x, a, b):
+    return a * np.exp(-b * x)
+
+xdata = QT.Ts_e
+ydata = np.log(QT.Q2)
+
+x1 = QT.Ts_e
+y1 = QT.Q2
+
+
+gmodel = Model(func)
+result = gmodel.fit(y1, x=x1, a=1, b=1)
+
+print(result.fit_report())
+
+plt.plot(x1, y1, 'bo')
+plt.plot(x1, result.init_fit, 'k--', label='initial fit')
+plt.plot(x1, result.best_fit, 'r-', label='best fit')
+plt.legend(loc='best')
+plt.show()
+
+# <end examples/doc_model_gaussian.py>
+
+
+
+#popt, pcov = curve_fit(func, xdata, ydata)
+#popt
+
+#plt.plot(xdata, func(xdata, *popt), 'r-',
+#         label='fit: a=%5.3f, b=%5.3f' % tuple(popt))
+
+#popt, pcov = curve_fit(func, xdata, ydata, bounds=(0, [3., 1., 0.5]))
+#popt
+
+#plt.plot(xdata, func(xdata, *popt), 'g--',
+#         label='fit: a=%5.3f, b=%5.3f' % tuple(popt))
+
+
+
+## Generated linear fit
+slope_Q_1_exp, intercept_Q_1_exp, r_value_Q_1_exp, p_value_Q_1_exp, std_err_Q_1_exp = stats.linregress(xdata,ydata)
+
+print(slope_Q_1_exp, np.exp(intercept_Q_1_exp))
+
+fdata=[]
+for t in xdata:
+    fdata.append(np.exp(intercept_Q_1_exp + slope_Q_1_exp*t))
+    
+plt.plot(xdata, Q_T.Q2, 'b', label='data')
+plt.plot(xdata, fdata, 'r--',label='Fit')
+
+#plt.xlabel('x')
+#plt.ylabel('y')
+#plt.legend()
+plt.show()
+
+
+QT['Q_f']=fdata
+QT
