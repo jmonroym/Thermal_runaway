@@ -1,0 +1,4 @@
+/Users/jmonroy/Documents/Thermal_runaway/08_14_2020_19_44_06/dataset.cvs r 22
+/Users/jmonroy/Documents/Thermal_runaway/08_14_2020_21_30_45/dataset.cvs b 28
+/Users/jmonroy/Documents/Thermal_runaway/08_17_2020_14_14_27/dataset.cvs y 38
+/Users/jmonroy/Documents/Thermal_runaway/08_17_2020_15_25_57/dataset.cvs m 41
