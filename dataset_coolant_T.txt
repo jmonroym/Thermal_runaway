@@ -1,0 +1,4 @@
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/08_14_2020_19_44_06/dataset.csv r 22
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/08_14_2020_21_30_45/dataset.csv b 28
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/08_17_2020_14_14_27/dataset.csv y 38
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/08_17_2020_15_25_57/dataset.csv m 41

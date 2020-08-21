@@ -1,0 +1,4 @@
+/Users/jmonroy/Documents/Thermal_runaway/fluence_data/08_20_2020_14_14_29/dataset.csv r 1e16_neq/cm2
+/Users/jmonroy/Documents/Thermal_runaway/fluence_data/08_20_2020_15_01_34/dataset.csv b 2e16_neq/cm2
+/Users/jmonroy/Documents/Thermal_runaway/fluence_data/08_20_2020_16_53_12/dataset.csv y 3e16_neq/cm2
+/Users/jmonroy/Documents/Thermal_runaway/fluence_data/08_20_2020_18_10_11/dataset.csv m 4e16_neq/cm2
