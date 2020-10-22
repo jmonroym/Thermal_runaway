@@ -1,0 +1,10 @@
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_16_2020_12_38_51_Vb800dd150_21/dataset.csv r 21
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_16_2020_13_45_04_Vb800dd150_23/dataset.csv b 23
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_16_2020_15_07_44_Vb800dd150_25/dataset.csv g 25
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_16_2020_16_59_17_Vb800dd150_275/dataset.csv m 27.5
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_16_2020_18_29_14_Vb800dd150_303/dataset.csv y 30.3
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_19_2020_11_40_05_Vb800dd150_322/dataset.csv C0 32.2
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_19_2020_15_50_41_Vb800dd150_347/dataset.csv C1 34.7
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_19_2020_17_34_59_VB800dd150_374/dataset.csv C2 37.4
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_19_2020_19_42_31_Vb800dd150_398/dataset.csv C3 39.8
+/Users/jmonroy/Documents/Thermal_runaway/coolant_T_data/10_20_2020_11_29_37_Vb800dd150_413/dataset.csv C4 41.3
